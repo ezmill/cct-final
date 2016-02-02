@@ -3,11 +3,11 @@ var isMobile = false;
 
 var wrapper = $("#wrapper");
 var features = $(".feature");
-if(isMobile){
+// if(isMobile){
 	renderMobile();
-} else {
-	renderDesktop();
-}
+// } else {
+	// renderDesktop();
+// }
 
 function renderMobile(){
 	features.each(function(){

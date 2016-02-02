@@ -13,6 +13,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Futura Condensed';
+    src: url('../fonts/FuturaStd-CondensedExtraBd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body{
 	box-sizing: border-box;
@@ -33,10 +40,10 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    width: 150px;
-    height: 150px;
+    width: 147.375px;
+    height: 129.625px;
     z-index: 1;
-    background: url(../img/tab.svg);
+    background: url(../img/square-tab.svg);
     background-size: 100% 100%;
     /*-webkit-transform: scale(0.5);*/
        /*-moz-transform: scale(0.5);*/
@@ -163,7 +170,7 @@ a {
 .menu-item{
     text-align: center;
     position: absolute;
-    bottom: -60;
+    bottom: -120px;
     right: 0;
     background: #00ff00;
     width: 75px;
@@ -172,6 +179,7 @@ a {
     border-radius: 5px;
     font-size: 10px;
     display: none;
+    font-family: "Futura Condensed"; 
 }
 
 #smiley{
