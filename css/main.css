@@ -76,7 +76,7 @@ a {
     cursor: pointer;
 }
 .feature{
-    height: 200vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     background: black;
@@ -95,6 +95,19 @@ a {
     position: relative;
     border: 0!important;
 }
+.smiley-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    height: 20%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
 .row {
     position: relative;
     width: 100%;
@@ -251,4 +264,41 @@ a {
         -ms-transform: translate(-50%, -50%);
          -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+}
+#back-button{
+    width: 100vw;
+    text-align: center;
+    font-size: 150%;
+    margin: 50px 0 0 0;
+}
+#contact{
+    position: fixed;
+    display: none;
+    background: #ff0000;
+    padding: 10px;
+    max-width: 800px;
+    /*max-height: 500px;*/
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+#contact h2:first-child{
+    margin-top: 0;
+}
+#close-contact{
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+    .grid-item{
+        width: auto; 
+        max-width: 500px; 
+    }
 }

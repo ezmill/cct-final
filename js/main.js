@@ -4,16 +4,16 @@ var isMobile = false;
 var wrapper = $("#wrapper");
 var features = $(".feature");
 // if(isMobile){
-	renderMobile();
+	// renderMobile();
 // } else {
 	// renderDesktop();
 // }
 
 function renderMobile(){
-	features.each(function(){
-		$(this).css("height", "100vh");
-		$(this).find(".feature-image").css("display", "none");
-	})
+	// features.each(function(){
+		// $(this).css("height", "100vh");
+		// $(this).find(".feature-image").css("display", "none");
+	// })
 	var smiley = document.createElement("div");
 	smiley.className = "feature";
 	smiley.style.height = "100vh";
@@ -65,8 +65,28 @@ $("#view-all-button").click(function(e){
 	e.preventDefault();
 	$("#wrapper").fadeToggle();
 	$("#view-all").fadeToggle();
-	$(this).html("HOME");
+	// $(this).html("HOME");
 
+})
+$(".smiley-image").click(function(e){
+	e.preventDefault();
+	$("#wrapper").fadeToggle();
+	$("#view-all").fadeToggle();
+	// $("#view-all-button").html("HOME");
+
+})
+$("#back-button").click(function(e){
+	e.preventDefault();
+	$("#wrapper").fadeToggle();
+	$("#view-all").fadeToggle();
+	// $("#view-all-button").html("VIEW ALL");
+
+})
+$("#contact-button").click(function(e){
+	$("#contact").fadeToggle();
+})
+$("#close-contact").click(function(e){
+	$("#contact").fadeToggle();
 })
 // $(".content").on("mouseover", function(){
 	// var imgs = $(this).find("img");
