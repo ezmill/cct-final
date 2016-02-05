@@ -66,21 +66,15 @@ $("#view-all-button").click(function(e){
 	e.preventDefault();
 	$("#wrapper").fadeToggle();
 	$("#view-all").fadeToggle();
-	// $(this).html("HOME");
+	$(this).html("HOME");
 
 })
-$(".smiley-image").click(function(e){
-	e.preventDefault();
-	$("#wrapper").fadeToggle();
-	$("#view-all").fadeToggle();
-	// $("#view-all-button").html("HOME");
 
-})
 $("#back-button").click(function(e){
 	e.preventDefault();
 	$("#wrapper").fadeToggle();
 	$("#view-all").fadeToggle();
-	// $("#view-all-button").html("VIEW ALL");
+	$("#view-all-button").html("VIEW ALL");
 
 })
 $("#contact-button").click(function(e){
