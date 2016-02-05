@@ -36,7 +36,7 @@ a {
     text-decoration: none;
     outline: 0;
 }
-#tab{
+/*#tab{
     position: fixed;
     top: 0;
     left: 0;
@@ -45,12 +45,49 @@ a {
     z-index: 1;
     background: url(../img/square-tab.svg);
     background-size: 100% 100%;
+    cursor: pointer;
+}*/
+#tab{
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    /*left: 147.375px;*/
+    left: 0px;
+    width: 147.375px;
+    height: 129.625px;
+    z-index: 1;
+    background: #ff0000;
     /*-webkit-transform: scale(0.5);*/
        /*-moz-transform: scale(0.5);*/
         /*-ms-transform: scale(0.5);*/
          /*-o-transform: scale(0.5);*/
             /*transform: scale(0.5);*/
     cursor: pointer;
+}
+#tab h2{
+    font-size: 125%;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+#tab .hamburger{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+#tab .hamburger li{
+    width: 30px;
+    background: black;
+    height: 5px;
+    margin: 2px 0;
+    opacity: 0.5;
+    list-style: none;
+}
+#tab .flag{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
 }
 #wrapper{
     width: 100%;
@@ -256,7 +293,7 @@ a {
 }
 .terms{
     position: relative;
-    padding: 10px;
+    padding: 100px;
     max-width: 500px;
     top: 50%;
     left: 50%;

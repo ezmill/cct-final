@@ -52,7 +52,8 @@ $("#menuCart").click(function(){
 })
 
 $("#tab").click(function(){
-	$(this).children().fadeToggle();
+	// $(this).children().fadeToggle();
+	$(".menu").children().fadeToggle();
 })
 $(".menu-item").click(function(e){
 
@@ -88,6 +89,7 @@ $("#contact-button").click(function(e){
 $("#close-contact").click(function(e){
 	$("#contact").fadeToggle();
 })
+
 // $(".content").on("mouseover", function(){
 	// var imgs = $(this).find("img");
 	// if($(imgs[0]).css("display", "inline")){
