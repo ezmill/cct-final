@@ -53,8 +53,8 @@ a {
     padding: 5px;
     /*left: 147.375px;*/
     left: 0px;
-    width: 147.375px;
-    height: 129.625px;
+    width: 175px;
+    height: 150px;
     z-index: 1;
     background: #ff0000;
     /*-webkit-transform: scale(0.5);*/
@@ -71,7 +71,7 @@ a {
 }
 #tab .hamburger{
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 5px;
 }
 #tab .hamburger li{
