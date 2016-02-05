@@ -82,6 +82,12 @@ a {
     opacity: 0.5;
     list-style: none;
 }
+.tm{
+    font-size: 7px; 
+    position: absolute; 
+    top: 8px; 
+    font-family: "Futura Condensed";
+}
 #tab .flag{
     position: absolute;
     bottom: 5px;
@@ -334,6 +340,14 @@ a {
     right: 10px;
     top: 10px;
     cursor: pointer;
+}
+.socials{
+    bottom: 0;
+    right: 10px;
+    position: absolute;
+    width: 100vw;
+    text-align: right;
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 450px) {
     .grid-item{
